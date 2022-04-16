@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+        <link rel="shortcut icon" href="assets/img/logo192.png" type="image/png">
 
         <!--=============== REMIXICONS ===============-->
         <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
@@ -15,7 +15,7 @@
         <!--=============== CSS ===============-->
         <link rel="stylesheet" href="assets/css/styles.css">
 
-        <title>Responsive Website Travel</title>
+        <title>PeGu</title>
     </head>
     <body>
         <header class="header" id="header">
@@ -33,6 +33,10 @@
                         <li class="nav__item">
                             <a href="#discover" class="nav__link">Work</a>
                         </li>
+                        <li class="nav__item">
+                            <a href="#service" class="nav__link">Service</a>
+                        </li>
+                        
                        
                     </ul>
 
@@ -107,11 +111,11 @@
 
                     <div class="about__img">
                         <div class="about__img-overlay">
-                            <img src="assets/img/about1.jpg" alt="" class="about__img-one">
+                            <img src="assets/img/1.jpg" alt="PeGu" class="about__img-one">
                         </div>
 
                         <div class="about__img-overlay">
-                            <img src="assets/img/about2.jpg" alt="" class="about__img-two">
+                            <img src="assets/img/2.jpg" alt="PeGu" class="about__img-two">
                         </div>
                     </div>
                 </div>
@@ -119,48 +123,68 @@
             
             <!--==================== DISCOVER ====================-->
             <section class="discover section" id="discover">
-                <h2 class="section__title">Discover the most <br> attractive places</h2>
+                <h2 class="section__title">Discover some of our<br> latest projects</h2>
                 <center>
-                <h4  style="margin-bottom: 20px;">Swipe to see more</h4>
+                <h4  style="margin-bottom: 20px;">Swipe right or left to see more</h4>
             </center>
 
                 <div class="discover__container container swiper-container">
                     <div class="swiper-wrapper">
                         <!--==================== DISCOVER 1 ====================-->
-                        <div class="discover__card swiper-slide">
-                            <img src="assets/img/discover1.jpg" alt="" class="discover__img">
+                        <div class="discover__card swiper-slide" >
+                            <a href="https://github.com/mhflk/PeGuweatherapp" target="__blank"><img src="assets/img/weather.jpg" alt="" class="discover__img">
                             <div class="discover__data">
-                                <h2 class="discover__title">Bali</h2>
-                                <span class="discover__description">24 tours available</span>
-                            </div>
+                                <h2 class="discover__title">PeGu Weather</h2>
+                                <span class="discover__description">Android application</span>
+                            </div></a>
                         </div>
 
                         <!--==================== DISCOVER 2 ====================-->
                         <div class="discover__card swiper-slide">
-                            <img src="assets/img/discover2.jpg" alt="" class="discover__img">
+                            <a href="https://www.mhflk.ga/" target="__blank"><img src="assets/img/mhflk.jpg" alt="" class="discover__img">
                             <div class="discover__data">
-                                <h2 class="discover__title">Hawaii</h2>
-                                <span class="discover__description">15 tours available</span>
-                            </div>
+                                <h2 class="discover__title">MHFLK</h2>
+                                <span class="discover__description">lms website</span>
+                            </div></a>
+                        </div>
+
+                        <div class="discover__card swiper-slide">
+                            <a href="https://pegucovid.netlify.app/" target="__blank"><img src="assets/img/covidweb.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">PeGu Covid Stats</h2>
+                                <span class="discover__description">Web application</span>
+                            </div></a>
+                        </div>
+
+                        <!--==================== DISCOVER 4 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <a href="https://pegunews.netlify.app/" target="__blank"><img src="assets/img/news.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">PeGu News</h2>
+                                <span class="discover__description">Website</span>
+                            </div></a>
                         </div>
 
                         <!--==================== DISCOVER 3 ====================-->
                         <div class="discover__card swiper-slide">
-                            <img src="assets/img/discover3.jpg" alt="" class="discover__img">
+                            <a href="https://github.com/mhflk/PeGuCovid-app" target="__blank"><img src="assets/img/covidapp.jpg" alt="" class="discover__img">
                             <div class="discover__data">
-                                <h2 class="discover__title">Hvar</h2>
-                                <span class="discover__description">18 tours available</span>
-                            </div>
+                                <h2 class="discover__title" style="color: rgb(85, 69, 69);">PeGu Covid Dashboard</h2>
+                                <span class="discover__description" style="color: rgb(85, 69, 69)";>mobile application</span>
+                            </div></a>
                         </div>
                         
 
-                        <!--==================== DISCOVER 4 ====================-->
+                        
+
+                        
+
                         <div class="discover__card swiper-slide">
-                            <img src="assets/img/discover4.jpg" alt="" class="discover__img">
+                            <a href="https://pegutv.netlify.app/" target="__blank"><img src="assets/img/tv.jpg" alt="" class="discover__img">
                             <div class="discover__data">
-                                <h2 class="discover__title">Whitehaven</h2>
-                                <span class="discover__description">32 tours available</span>
-                            </div>
+                                <h2 class="discover__title">PeGu Tv</h2>
+                                <span class="discover__description">Web application</span>
+                            </div></a>
                         </div>
                     </div>
                 </div>
@@ -173,30 +197,99 @@
                 <div class="experience__container container grid">
                     <div class="experience__content grid">
                         <div class="experience__data">
-                            <h2 class="experience__number">20</h2>
-                            <span class="experience__description">Year <br> Experience</span>
+                            <h2 class="experience__number">3</h2>
+                            <span class="experience__description">Years <br> Experience</span>
                         </div>
 
                         <div class="experience__data">
-                            <h2 class="experience__number">75</h2>
-                            <span class="experience__description">Complete <br> tours</span>
+                            <h2 class="experience__number">50+</h2>
+                            <span class="experience__description">Projects</span>
                         </div>
 
                         <div class="experience__data">
-                            <h2 class="experience__number">650+</h2>
-                            <span class="experience__description">Tourist <br> Destination</span>
+                            <h2 class="experience__number">500+</h2>
+                            <span class="experience__description">Work <br>hours</span>
                         </div>
                     </div>
 
                     <div class="experience__img grid">
                         <div class="experience__overlay">
-                            <img src="assets/img/experience1.jpg" alt="" class="experience__img-one">
+                            <img src="assets/img/7.jpg" alt="" class="experience__img-one">
                         </div>
                         
                         <div class="experience__overlay">
-                            <img src="assets/img/experience2.jpg" alt="" class="experience__img-two">
+                            <img src="assets/img/covidapp.jpg" alt="" class="experience__img-two">
                         </div>
                     </div>
+                </div>
+            </section>
+
+            <!--==================== PLACES ====================-->
+            <section class="place section" id="service">
+                <h2 class="section__title">Our Service</h2>
+
+                <div class="place__container container grid">
+                    <!--==================== PLACES CARD 1 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/web.png" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i></i>
+                                <span class="place__rating-number"></span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Website</h3>
+                                <span class="place__subtitle">Development</span>
+                                <span class="place__price"></span>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+
+                    <!--==================== PLACES CARD 2 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/webapp.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i></i>
+                                <span class="place__rating-number"></span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Web App</h3>
+                                <span class="place__subtitle">Development</span>
+                                <span class="place__price"></span>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+
+                    <!--==================== PLACES CARD 3 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/app.png" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i></i>
+                                <span class="place__rating-number"></span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Mobile App</h3>
+                                <span class="place__subtitle">Development</span>
+                                <span class="place__price"></span>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+
+                    
                 </div>
             </section>
 
@@ -208,77 +301,62 @@
             <div class="footer__container container grid">
                 <div class="footer__content grid">
                     <div class="footer__data">
-                        <h3 class="footer__title">Travel</h3>
-                        <p class="footer__description">Travel you choose the <br> destination, 
-                            we offer you the <br> experience.
+                        <h3 class="footer__title">PeGu</h3>
+                        <p class="footer__description">PeGu is the best <br> Online agency, 
+                            That you'll  <br> ever find.
                         </p>
                         <div>
-                            <a href="https://www.facebook.com/" target="_blank" class="footer__social">
-                                <i class="ri-facebook-box-fill"></i>
+                            <a href="https://github.com/mhflk" target="_blank" class="footer__social">
+                                <i class="ri-github-fill"></i>
                             </a>
-                            <a href="https://twitter.com/" target="_blank" class="footer__social">
-                                <i class="ri-twitter-fill"></i>
+                            <a href="https://wa.me/qr/Q4VXDDGTICEDC1" target="_blank" class="footer__social">
+                                <i class="ri-whatsapp-fill"></i>
                             </a>
-                            <a href="https://www.instagram.com/" target="_blank" class="footer__social">
-                                <i class="ri-instagram-fill"></i>
+                            <a href="https://t.me/endham" target="_blank" class="footer__social">
+                                <i class="ri-telegram-fill"></i>
                             </a>
-                            <a href="https://www.youtube.com/" target="_blank" class="footer__social">
-                                <i class="ri-youtube-fill"></i>
-                            </a>
+                            
                         </div>
                     </div>
     
                     <div class="footer__data">
-                        <h3 class="footer__subtitle">About</h3>
+                        <h3 class="footer__subtitle">Important Links</h3>
                         <ul>
                             <li class="footer__item">
-                                <a href="" class="footer__link">About Us</a>
+                                <a href="#about" class="footer__link">About Us</a>
                             </li>
                             <li class="footer__item">
-                                <a href="" class="footer__link">Features</a>
+                                <a href="#discover" class="footer__link">Our projects</a>
                             </li>
                             <li class="footer__item">
-                                <a href="" class="footer__link">New & Blog</a>
+                                <a href="mailto:endhamfc@gmail.com" class="footer__link">Contact us</a>
                             </li>
                         </ul>
                     </div>
     
                     <div class="footer__data">
-                        <h3 class="footer__subtitle">Company</h3>
+                        <h3 class="footer__subtitle">Other links</h3>
                         <ul>
                             <li class="footer__item">
-                                <a href="" class="footer__link">Team</a>
+                                <a href="https://thulina2004.netlify.app/" target="__blank" class="footer__link">Thulina</a>
                             </li>
                             <li class="footer__item">
-                                <a href="" class="footer__link">Plan y Pricing</a>
+                                <a href="https://www.mhflk.ga/" target="__blank" class="footer__link">MHFLK</a>
                             </li>
                             <li class="footer__item">
-                                <a href="" class="footer__link">Become a member</a>
+                                <a href="https://t.me/PSGLKbot" target="__blank" class="footer__link">PSG LK</a>
                             </li>
                         </ul>
                     </div>
     
-                    <div class="footer__data">
-                        <h3 class="footer__subtitle">Support</h3>
-                        <ul>
-                            <li class="footer__item">
-                                <a href="" class="footer__link">FAQs</a>
-                            </li>
-                            <li class="footer__item">
-                                <a href="" class="footer__link">Support Center</a>
-                            </li>
-                            <li class="footer__item">
-                                <a href="" class="footer__link">Contact Us</a>
-                            </li>
-                        </ul>
-                    </div>
+                    
                 </div>
 
                 <div class="footer__rights">
-                    <p class="footer__copy">&#169; 2021 Bedimcode. All rigths reserved.</p>
+                    <p class="footer__copy">&#169; 2022 PeGu. All rigths reserved.</p>
                     <div class="footer__terms">
-                        <a href="#" class="footer__terms-link">Terms & Agreements</a>
-                        <a href="#" class="footer__terms-link">Privacy Policy</a>
+                        <a href="https://thulina2004.netlify.app/" target="__blank" class="footer__terms-link">Created by Thulina</a>
+                        
                     </div>
                 </div>
             </div>
